@@ -25,7 +25,8 @@ Quá trình thực thi kịch bản tải trên Apache JMeter được ghi nhậ
  3.1. Kết quả chi tiết từng Request (View Results Tree)
  Mục tiêu giám sát: Theo dõi trạng thái Sống/Chết và mã phản hồi HTTP của từng request riêng lẻ dưới áp lực tăng tải.
  Kết quả Toàn bộ 100 request đều được hệ thống đánh dấu tích xanh thành công, trả về mã phản hồi chuẩn `HTTP 200 OK` và không có request nào bị gián đoạn hay ngắt kết nối giữa chừng.
- <img width="627" height="341" alt="View Results Tree" src="https://github.com/user-attachments/assets/42f27b68-d096-4c7d-a1ca-a18f597f1adb" />
+ <img width="627" height="340" alt="view result tree" src="https://github.com/user-attachments/assets/bc711ae6-8a53-426a-84ab-5a48698d169e" />
+
 
 
  3.2. Bảng thống kê hiệu năng tổng quan (Summary Report)
