@@ -7,15 +7,16 @@ Về kỹ năng: Có khả năng tự xây dựng kịch bản kiểm thử tả
 
 
 2. KỊCH BẢN KIỂM TRA (TEST SCENARIO)
-Để đảm bảo tính độc lập và không trùng lặp đề tài, bài kịch bản lựa chọn kiểm thử hiệu năng trên hệ thống Open API quốc tế cung cấp dữ liệu Pokémon (**PokeAPI**).
 
-Đối tượng kiểm thử (API Endpoint): "https://pokeapi.co/api/v2/pokemon?limit=100"
-Mục đích kịch bản: Giả lập hành vi của một lượng lớn người dùng cùng lúc gửi yêu cầu truy vấn thông tin dữ liệu của 100 loài Pokémon để kiểm tra năng suất phản hồi và độ ổn định của Server Backend.
-Thông số cấu hình tải (Thread Group):
-   Number of Threads (Số người dùng giả lập đồng thời): 100 users.
-   Ramp-up Period (Thời gian để kích hoạt toàn bộ 100 users):** 10 giây (tăng tải tuyến tính trung bình 10 users mỗi giây).
-   Loop Count (Số vòng lặp thực thi của mỗi user): 1 lần.
-   Tổng số Request dự kiến gửi đi: 100 Requests.
+Để đảm bảo tính độc lập và không trùng lặp đề tài, kịch bản lựa chọn thực hiện kiểm thử hiệu năng trên hệ thống Open API quốc tế cung cấp dữ liệu Pokémon (**PokeAPI**).
+
+* **Đối tượng kiểm thử (API Endpoint):** `https://pokeapi.co/api/v2/pokemon?limit=100`
+* **Mục đích kịch bản:** Giả lập hành vi của một lượng lớn người dùng đồng thời gửi yêu cầu truy vấn thông tin dữ liệu của 100 loài Pokémon, từ đó đánh giá năng suất phản hồi và độ ổn định của hệ thống Server Backend dưới áp lực tải.
+* **Thông số cấu hình tải (Thread Group):**
+  * **Number of Threads** *(Số người dùng giả lập đồng thời)*: 100 users.
+  * **Ramp-up Period** *(Thời gian kích hoạt toàn bộ 100 users)*: 10 giây (tăng tải tuyến tính trung bình 10 users mỗi giây).
+  * **Loop Count** *(Số vòng lặp thực thi của mỗi user)*: 1 lần.
+  * **Tổng số Request dự kiến gửi đi:** 100 Requests.
    
    
 ### Cấu hình kịch bản trên JMeter
