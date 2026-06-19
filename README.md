@@ -1,5 +1,4 @@
-# THỰC HÀNH LAB 8: KIỂM THỬ HIỆU NĂNG VỚI APACHE JMETER
-
+THỰC HÀNH LAB 8: KIỂM THỬ HIỆU NĂNG VỚI APACHE JMETER
 
 1. MỤC TIÊU BÀI LAB
 Về kiến thức: Nắm vững khái niệm, nguyên lý và tầm quan trọng của kiểm thử hiệu năng (Performance Testing/Load Testing) trong quy trình phát triển và vận hành phần mềm.
