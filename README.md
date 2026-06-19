@@ -16,8 +16,12 @@ Thông số cấu hình tải (Thread Group):
    Ramp-up Period (Thời gian để kích hoạt toàn bộ 100 users):** 10 giây (tăng tải tuyến tính trung bình 10 users mỗi giây).
    Loop Count (Số vòng lặp thực thi của mỗi user): 1 lần.
    Tổng số Request dự kiến gửi đi: 100 Requests.
-   <img width="627" height="151" alt="Thêm HTTP Request" src="https://github.com/user-attachments/assets/186be91f-ca45-49fc-9bcb-6e6d313cf70a" />
+   
+Tạo Thread Group
 <img width="627" height="177" alt="Tạo Thread Group" src="https://github.com/user-attachments/assets/d5659612-7ff4-4a1c-9000-0889c333c15a" />
+
+Thêm HTTP Request  
+<img width="627" height="151" alt="Thêm HTTP Request" src="https://github.com/user-attachments/assets/186be91f-ca45-49fc-9bcb-6e6d313cf70a" />
 
 
 
