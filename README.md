@@ -18,14 +18,15 @@ Thông số cấu hình tải (Thread Group):
    Tổng số Request dự kiến gửi đi: 100 Requests.
    
    
-Tạo Thread Group
-<img width="627" height="177" alt="Tạo Thread Group" src="https://github.com/user-attachments/assets/d5659612-7ff4-4a1c-9000-0889c333c15a" />
+### Cấu hình kịch bản trên JMeter
 
+#### 1. Tạo nhóm người dùng (Thread Group)
+<img width="627" height="177" alt="Tạo Thread Group" src="https://github.com/user-attachments/assets/b0485a0b-8e01-4880-a698-d481971aced5" />
 
-Thêm HTTP Request  
-<img width="627" height="151" alt="Thêm HTTP Request" src="https://github.com/user-attachments/assets/186be91f-ca45-49fc-9bcb-6e6d313cf70a" />
+#### 2. Cấu hình đường link gọi dữ liệu (HTTP Request)
+<img width="627" height="151" alt="Thêm HTTP Request" src="https://github.com/user-attachments/assets/eab943fd-00a9-4675-b4a5-6a6437cd1e60" />
 
-
+---
 
  3. KẾT QUẢ KIỂM TRA (TEST RESULTS)
 
