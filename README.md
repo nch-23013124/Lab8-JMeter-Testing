@@ -1,14 +1,14 @@
-# BÁO CÁO BÀI THỰC HÀNH LAB 8: KIỂM THỬ HIỆU NĂNG VỚI APACHE JMETER
+# THỰC HÀNH LAB 8: KIỂM THỬ HIỆU NĂNG VỚI APACHE JMETER
 
 
-## 1. MỤC TIÊU BÀI LAB
+1. MỤC TIÊU BÀI LAB
 - **Về kiến thức:** Nắm vững khái niệm, nguyên lý và tầm quan trọng của kiểm thử hiệu năng (Performance Testing/Load Testing) trong quy trình phát triển và vận hành phần mềm.
 - **Về công cụ:** Thành thạo cách cài đặt, cấu hình kịch bản và sử dụng các thành phần cốt lõi của công cụ Apache JMeter (Thread Group, Sampler, Listeners).
 - **Về kỹ năng:** Có khả năng tự xây dựng kịch bản kiểm thử tải độc lập, giả lập lượng người dùng lớn truy cập đồng thời vào hệ thống API, từ đó biết cách đọc hiểu và phân tích các chỉ số hiệu năng (Response Time, Error Rate, Throughput) để đánh giá sức chịu tải của hệ thống.
 
----
 
-## 2. KỊCH BẢN KIỂM TRA (TEST SCENARIO)
+
+2. KỊCH BẢN KIỂM TRA (TEST SCENARIO)
 Để đảm bảo tính độc lập và không trùng lặp đề tài, bài kịch bản lựa chọn kiểm thử hiệu năng trên hệ thống Open API quốc tế cung cấp dữ liệu Pokémon (**PokeAPI**).
 
 - **Đối tượng kiểm thử (API Endpoint):** `https://pokeapi.co/api/v2/pokemon?limit=100`
